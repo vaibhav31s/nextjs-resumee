@@ -5,8 +5,8 @@ import { useContext } from 'react';
 import { Contexto } from '../appContext';
 
 export default function Banner() {
-  const name = 'Francisco Pantoja';
-  const email = 'franciscopantojag98@gmail.com';
+  const name = 'Vaibhav Gawad';
+  const email = 'gawadvaibhavv@gmail.com';
   const { setIsOpen } = useContext(Contexto);
 
   function openModal() {
@@ -38,20 +38,20 @@ export default function Banner() {
           <div className={`${styles.buttons}`}>
             <div>
               <button className={`${styles.but}`}>
-                <a target="_blank" href="/pdf/resume_francisco_pantoja.pdf">
+                <a target="_blank" href="/pdf/VaibhavGawad.pdf">
                   DOWNLOAD RESUME
                 </a>
               </button>
               <button className={`${styles.svgBut}`}>
                 <a
                   target="_blank"
-                  href="https://www.linkedin.com/in/franciscopantojaguillen/"
+                  href="https://www.linkedin.com/in/Vaibhav-gawad/"
                 >
                   <Linkedin />
                 </a>
               </button>
               <button className={`${styles.svgBut}`}>
-                <a target="_blank" href="https://github.com/franciscopantojag">
+                <a target="_blank" href="https://github.com/Vaibhav31s">
                   <Github />
                 </a>
               </button>
@@ -63,7 +63,7 @@ export default function Banner() {
           </div>
         </section>
         <figure className={styles.bannerContRight}>
-          <img alt="Francisco Pantoja" src="/images/profilePicture.jpg" />
+          <img alt="Vaibhav Gawad" src="/images/ogImage.png" />
         </figure>
       </div>
     </section>

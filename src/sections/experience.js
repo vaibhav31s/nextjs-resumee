@@ -18,7 +18,7 @@ export default function Experience() {
                 </span>
               </h5>
               <h3>Software Engineer</h3>
-              <h4>Oktana Corporation</h4>
+              <h4>Petwer private limited</h4>
               <ul>
                 <li>
                   <span className="colorRed">- </span>
@@ -34,29 +34,7 @@ export default function Experience() {
                 </li>
               </ul>
             </div>
-            <div className="cardCont">
-              <h5>
-                <span>
-                  <FontAwesomeIcon icon={faCalendarAlt} /> 2019
-                </span>
-              </h5>
-              <h3>Quality Assurance Assistant</h3>
-              <h4>KAR{' & '}MA S.A.C.</h4>
-              <ul>
-                <li>
-                  <span className="colorRed">- </span>
-                  <span>Product quality assurance and control</span>
-                </li>
-                <li>
-                  <span className="colorRed">- </span>{' '}
-                  <span>Supply chain management</span>
-                </li>
-                <li>
-                  <span className="colorRed">- </span>{' '}
-                  <span>Value chain analysis</span>
-                </li>
-              </ul>
-            </div>
+            
           </div>
         </div>
       </div>

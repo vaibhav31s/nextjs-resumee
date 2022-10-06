@@ -6,11 +6,11 @@ import { faCheck } from "@fortawesome/free-solid-svg-icons";
 export default function Skills() {
   const mainTechSkills = [
     { name: "HTML", progress: "90" },
-    { name: "CSS", progress: "90" },
-    { name: "JavaScript", progress: "95" },
-    { name: "React", progress: "60" },
+    { name: "CSS", progress: "70" },
+    { name: "JavaScript", progress: "85" },
+    { name: "React", progress: "70" },
     { name: "SQL", progress: "75" },
-    { name: "Git / GitHub", progress: "50" },
+    { name: "Git / GitHub", progress: "70" },
   ];
   const overallCirSkills = [
     { name: "Web Development", progress: "90" },
@@ -29,7 +29,6 @@ export default function Skills() {
     { name: "AutoCAD", progress: "75" },
     { name: "Premiere", progress: "75" },
     { name: "Photoshop", progress: "60" },
-    { name: "MS Excel", progress: "90" },
   ];
   return (
     <section className="container">

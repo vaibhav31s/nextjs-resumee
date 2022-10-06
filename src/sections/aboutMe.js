@@ -8,7 +8,7 @@ export default function AboutMe() {
     setIsOpen(true);
   }
 
-  const email = 'franciscopantojag98@gmail.com';
+  const email = 'gawadvaibhavv@gmail.com';
   return (
     <section className="container">
       <div className="containerCont sectionCont sectionContAbout">
@@ -16,13 +16,13 @@ export default function AboutMe() {
         <header>
           <h2>about me</h2>
           <h3>
-            Hi! My name is Francisco Pantoja,{' '}
+            Hi! My name is Vaibhav Gawad,{' '}
             <span className="colorRed">Web Developer</span>
           </h3>
         </header>
 
         <p>
-          I am a peruvian software developer, focused on web technologies. I
+          I am a Vaibhav software developer, focused on web technologies. I
           have experience using some programming languages such as JavaScript
           and Python, in collaboration with HTML and CSS to build amazing and
           complex web sites; involving beautiful interfaces, client side logic
@@ -46,7 +46,7 @@ export default function AboutMe() {
           </strong>
           ; also you are more than welcome to follow my work on my{' '}
           <strong>
-            <a target="_blank" href="https://github.com/franciscopantojag">
+            <a target="_blank" href="https://github.com/vaibhav31s">
               github
             </a>
           </strong>{' '}
@@ -54,7 +54,7 @@ export default function AboutMe() {
           <strong>
             <a
               target="_blank"
-              href="https://www.linkedin.com/in/franciscopantojaguillen/"
+              href="https://www.linkedin.com/in/vaibhav-gawad/"
             >
               linkedin
             </a>
