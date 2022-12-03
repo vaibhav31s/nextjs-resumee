@@ -9,6 +9,8 @@ import Modal from "react-modal";
 config.autoAddCss = false;
 
 function MyApp({ Component, pageProps }) {
+
+  
   useEffect(() => {
     document.addEventListener("touchstart", function () {}, false);
     smoothscroll.polyfill();
@@ -26,7 +28,7 @@ function MyApp({ Component, pageProps }) {
             name="viewport"
             content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
           />
-          <meta name="author" content="Francisco Pantoja" />
+          <meta name="author" content="Vaibhav Gawad" />
         </Head>
 
         <Component {...pageProps} />

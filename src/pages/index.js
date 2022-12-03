@@ -19,15 +19,15 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Francisco Pantoja</title>
-        <link rel="image_src" href="https://franciscopantojag.me/images/ogImage.jpg" />
+        <title>Vaibhav Gawad</title>
+        <link rel="image_src" href="" />
         <meta
           name="description"
           content="Hey, this is my personal website. You can take a look at my resume, download my CV and see how you can contact me."
         />
-        <meta property="og:title" content="Francisco Pantoja" />
-        <meta property="og:site_name" content="Francisco Pantoja" />
-        <meta property="og:url" content="https://franciscopantojag.me" />
+        <meta property="og:title" content="Vaibhav Gawad" />
+        <meta property="og:site_name" content="Vaibhav gawad" />
+        <meta property="og:url" content="https://vaibhav31s.me" />
         <meta
           property="og:description"
           content="Hey, this is my personal website. You can take a look at my resume, download my CV and see how you can contact me"
@@ -39,7 +39,7 @@ export default function Home() {
         />
         <meta property="og:image:width" content="1580"/>
         <meta property="og:image:height" content="790"/>
-        <meta name="twitter:image" content="https://franciscopantojag.me/images/ogImage.jpg"/>
+        <meta name="twitter:image" content=""/>
       </Head>
       <Modal />
       <NavBar />
