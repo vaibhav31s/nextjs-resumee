@@ -14,7 +14,7 @@ export default function Skill({ skill }) {
       <div>
         <ProgressBar
           completed={skill.progress}
-          bgcolor={"var(--red)"}
+          bgColor={"var(--red)"}
           baseBgColor={"rgba(233, 233, 233, 0.8)"}
           width={"100%"}
           height={"0.5rem"}

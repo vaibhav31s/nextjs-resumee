@@ -5,7 +5,7 @@ import styles from "../styles/modal.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import { timeout } from "./helpers";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import { buttonDisabled } from "../styles/spinningWheel.module.css";
 import SpinningWheel from "../components/spinningWheel";
 
